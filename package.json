@@ -4,6 +4,7 @@
   "description": "My first project.",
   "main": "index.js",
   "scripts": {
+    "dev":"npx @tailwindcss/cli -i ./src/css/input.css -o ./src/css/output.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/SHEIKHIFTY/Tailwindproject/issues"
   },
-  "homepage": "https://github.com/SHEIKHIFTY/Tailwindproject#readme"
+  "homepage": "https://github.com/SHEIKHIFTY/Tailwindproject#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "postcss": "^8.5.5",
+    "tailwindcss": "^4.1.10"
+  }
 }
